@@ -55,8 +55,8 @@ def get_recommendation(title):
 # Yang Tampil di Web
 st.title("Rekomendasi Film")
 
-df1 = pickle.load(open('model/movie_list.pkl', 'rb'))
-tfidf_matrix = pickle.load(open('model/tfidf_matrix.pkl', 'rb'))
+df1 = pickle.load(open('../model/movie_list.pkl', 'rb'))
+tfidf_matrix = pickle.load(open('../model/tfidf_matrix.pkl', 'rb'))
 movies_list = df1['title'].values
 
 # Create text input for live search

@@ -36,4 +36,5 @@ def redirect_button(url: str, text: str = None, color="#1E4070"):
     )
 
 
-redirect_button("/Rekomendasi", "Cari Rekomendasi Film")
+redirect_button("https://movie-rs.streamlit.app/Rekomendasi",
+                "Cari Rekomendasi Film")
