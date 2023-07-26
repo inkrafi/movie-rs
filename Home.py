@@ -12,7 +12,7 @@ st.title("Sistem Rekomendasi Film")
 image = Image.open('assets/img/Cinema.jpg')
 st.image(image)  # caption='Image by macrovector on Freepik'
 
-st.markdown('Selamat datang di website rekomendasi film! Di sini, Anda dapat menemukan berbagai rekomendasi film yang menarik dan sesuai dengan preferensi Anda. Kami menggunakan metode content-based filtering untuk memberikan rekomendasi yang didasarkan pada kesamaan konten seperti genre, aktor, dan sinopsis film. Meskipun database kami memiliki lebih dari 600.000 film, perlu diketahui bahwa saat ini belum terdapat film-film Indonesia dalam koleksi kami.')
+st.markdown('Selamat datang di website rekomendasi film! Di sini, Anda dapat menemukan berbagai rekomendasi film yang menarik dan sesuai dengan preferensi Anda. Kami menggunakan metode content-based filtering untuk memberikan rekomendasi yang didasarkan pada kesamaan konten seperti genre, aktor, dan sinopsis film. Meskipun database kami memiliki lebih dari 16.000 film, perlu diketahui bahwa saat ini belum terdapat film-film Indonesia dalam koleksi kami.')
 st.markdown('Namun, jangan khawatir! Sistem kami tetap memberikan rekomendasi film yang berkualitas dan bervariasi dari berbagai genre dan negara lainnya. Kami berharap Anda dapat menemukan film-film baru yang menarik dan menghibur melalui pengalaman menggunakan website ini. Selamat menikmati menonton film-film pilihan Anda dan semoga rekomendasi kami dapat memenuhi harapan dan kepuasan Anda sebagai penikmat film. Terima kasih telah mengunjungi website kami!')
 
 
