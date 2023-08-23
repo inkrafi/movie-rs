@@ -3,7 +3,7 @@ from PIL import Image
 
 st.set_page_config(
     page_title="Website Rekomendasi Film",
-    page_icon="🎥",
+    page_icon="🎥"
 )
 
 st.title("Sistem Rekomendasi Film")
